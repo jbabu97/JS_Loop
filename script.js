@@ -44,4 +44,11 @@ const myArray = ['Bangladesh', 'Pakistan', 'South Africa', 'New Zealand'];
 for (let i = 0; i < myArray.length; i++) {
     const element = myArray[i];
     console.log(element);
+};
+
+const myArr = ['Rahim', 'Karim', 'Jamal', 'Kamal'];
+
+for (let i = 0; i < myArr.length; i++) {
+    const element = myArr[i];
+    console.log(element);
 }
