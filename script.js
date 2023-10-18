@@ -80,6 +80,29 @@ do {
 
 let runs = 11;
 do {
-    console.log(`The score is ${runs}`);
+    // console.log(`The score is ${runs}`);
     runs++;
 } while (runs <= 10);
+
+// for of loop
+
+const numOne = [1,2,3,4,5,6,7];
+
+for (const num of numOne) {
+    // console.log(num);
+};
+
+const map = new Map();
+
+map.set('BD', 'Bangladesh');
+map.set('Pak', 'Pakistan')
+map.set('SA', 'South Africa')
+map.set('Pak', 'Pakistan')
+map.set('NZ','New Zealand')
+
+
+for (const [key, value] of map) {
+    console.log(`${key} :- ${value}`);
+};
+
+
