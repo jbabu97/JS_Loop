@@ -105,4 +105,21 @@ for (const [key, value] of map) {
     console.log(`${key} :- ${value}`);
 };
 
+// ForInLoop
 
+const myObject = {
+    JS: 'JavaScript',
+    PY: 'Python',
+    RU: 'Rubi',
+    CSS: 'Cascading Style Sheet'
+};
+
+for (const item in myObject) {
+    console.log(`${item} is the short form for ${myObject[item]}`);
+};
+
+const programming = ['JavScript', 'Python', 'Java', 'Rubi', 'PHP']
+
+for (const key in programming) {
+    console.log(programming[key]);
+};
